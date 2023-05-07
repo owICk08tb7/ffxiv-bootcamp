@@ -1,0 +1,19 @@
+@layer base {
+  html {
+    /* See https://stackoverflow.com/a/39289453 */
+    overflow-x: hidden;
+    height: 100%;
+    margin-right: calc(-1 * (100vw - 100%));
+    @apply text-gray-900;
+    @apply bg-gray-100;
+  }
+
+  body {
+    display: flex;
+    min-height:100%;
+  }
+
+  #root {
+    flex: 1;
+  }
+}
