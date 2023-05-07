@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "packageManager": "yarn@3.5.1",
+  "homepage": "https://owICk08tb7.github.io/ffxiv-bootcamp/",
   "private": true,
   "scripts": {
     "dev": "craco start",
