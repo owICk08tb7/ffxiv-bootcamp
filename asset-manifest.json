@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ffxiv-bootcamp/static/css/main.a28780e4.css",
-    "main.js": "/ffxiv-bootcamp/static/js/main.d74ba324.js",
+    "main.js": "/ffxiv-bootcamp/static/js/main.a9bebde9.js",
     "static/media/arena.jpg": "/ffxiv-bootcamp/static/media/arena.54f8393ca08c7ff0da3c.jpg",
     "index.html": "/ffxiv-bootcamp/index.html",
     "main.a28780e4.css.map": "/ffxiv-bootcamp/static/css/main.a28780e4.css.map",
-    "main.d74ba324.js.map": "/ffxiv-bootcamp/static/js/main.d74ba324.js.map"
+    "main.a9bebde9.js.map": "/ffxiv-bootcamp/static/js/main.a9bebde9.js.map"
   },
   "entrypoints": [
     "static/css/main.a28780e4.css",
-    "static/js/main.d74ba324.js"
+    "static/js/main.a9bebde9.js"
   ]
 }
