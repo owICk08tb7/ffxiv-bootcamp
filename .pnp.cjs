@@ -41,6 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-hooks", "virtual:3569f17b47902996b4a55ac7d89131fe1da725ddf26cf2a043c66c24be5ee6a37233082fa3d6345db97ce51c9d5402df3714259b178e9a63fd9cad47f13e2ccb#npm:4.3.0"],\
             ["eventemitter3", "npm:5.0.1"],\
             ["i18next", "npm:22.4.15"],\
+            ["keydrown", "npm:1.2.8"],\
             ["lodash", "npm:4.17.21"],\
             ["pixi.js", "npm:7.2.4"],\
             ["react", "npm:18.2.0"],\
@@ -9900,6 +9901,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-hooks", "virtual:3569f17b47902996b4a55ac7d89131fe1da725ddf26cf2a043c66c24be5ee6a37233082fa3d6345db97ce51c9d5402df3714259b178e9a63fd9cad47f13e2ccb#npm:4.3.0"],\
             ["eventemitter3", "npm:5.0.1"],\
             ["i18next", "npm:22.4.15"],\
+            ["keydrown", "npm:1.2.8"],\
             ["lodash", "npm:4.17.21"],\
             ["pixi.js", "npm:7.2.4"],\
             ["react", "npm:18.2.0"],\
@@ -12436,6 +12438,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jsx-ast-utils", "npm:3.3.3"],\
             ["array-includes", "npm:3.1.6"],\
             ["object.assign", "npm:4.1.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["keydrown", [\
+        ["npm:1.2.8", {\
+          "packageLocation": "./.yarn/cache/keydrown-npm-1.2.8-b1e4a7cfa9-4cce08388c.zip/node_modules/keydrown/",\
+          "packageDependencies": [\
+            ["keydrown", "npm:1.2.8"]\
           ],\
           "linkType": "HARD"\
         }]\

@@ -9,16 +9,7 @@ export class Engine {
     this.events = new EventEmitter();
   }
 
-  onStateUpdate(callback) {
-    this.events.addListener('stateUpdate', callback);
-  }
-
-  triggerStateUpdate() {
-    this.events.emit('stateUpdate');
-  }
-
   movePlayer(...args) {
     this.state = movePlayer(this.state, ...args);
-    this.triggerStateUpdate();
   }
 }

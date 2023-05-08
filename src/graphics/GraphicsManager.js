@@ -1,6 +1,7 @@
 import * as PIXI from 'pixi.js';
 
 import { Arena } from 'src/graphics/Arena';
+import { getUserDirection } from 'src/graphics/getUserDirection';
 import { Player } from 'src/graphics/Player';
 
 export class GraphicsManager {
@@ -29,7 +30,21 @@ export class GraphicsManager {
     return this.pixiApplication.view;
   }
 
+  handleKeys() {
+    const angle = getUserDirection();
+
+    if (angle !== null) {
+      const speed = 5;
+      const offsetX = speed * Math.sin(angle);
+      const offsetY = speed * Math.cos(angle);
+
+      this.engine.movePlayer(offsetX, offsetY);
+    }
+  }
+
   update() {
+    this.handleKeys();
+
     this.player.x = this.engine.state.player.x;
     this.player.y = this.engine.state.player.y;
   }
