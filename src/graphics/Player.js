@@ -8,18 +8,22 @@ export class Player {
   }
 
   set x(newX) {
-    this.graphics.x = newX - config.player.width / 2;
+    this.graphics.x = newX - config.player.radius;
   }
 
   set y(newY) {
-    this.graphics.y = newY - config.player.height / 2;
+    this.graphics.y = newY - config.player.radius;
   }
 
   render() {
     if (!this.graphics) {
       this.graphics = new PIXI.Graphics();
       this.graphics.beginFill(config.player.color);
-      this.graphics.drawRect(0, 0, config.player.width, config.player.height);
+      this.graphics.drawCircle(
+        config.player.radius,
+        config.player.radius,
+        config.player.radius,
+      );
     }
   }
 }

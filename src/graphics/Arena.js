@@ -1,6 +1,6 @@
-import * as PIXI from 'pixi.js';
+import { Sprite } from 'pixi.js';
 
-import { config } from 'src/graphics/config';
+import arenaImage from 'src/assets/arena.jpg';
 
 export class Arena {
   constructor({ height, width }) {
@@ -11,9 +11,9 @@ export class Arena {
 
   render() {
     if (!this.graphics) {
-      this.graphics = new PIXI.Graphics();
-      this.graphics.beginFill(config.arena.color);
-      this.graphics.drawRect(0, 0, this.width, this.height);
+      this.graphics = Sprite.from(arenaImage);
+      this.graphics.width = this.width;
+      this.graphics.height = this.height;
     }
   }
 }
