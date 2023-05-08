@@ -22,4 +22,4 @@ jobs:
       with:
         branch: github-pages
         folder: build
-        commit-message: 'ci: deploy to GitHub Pages'
+        commit-message: 'cd: deploy to GitHub Pages'
